@@ -129,3 +129,8 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - Boot
+combos:
+- p: [24, 25]
+  k: LEFT SHIFT
+- p: [35, 34]
+  k: RIGHT SHIFT

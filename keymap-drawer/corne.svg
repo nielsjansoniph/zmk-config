@@ -401,6 +401,18 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap"><tspan style="font-size: 67%">BACKSPACE</tspan></text>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="42" y="148" width="28" height="26" class="combo"/>
+<text x="56" y="161" class="combo tap">
+<tspan x="56" dy="-0.6em">LEFT</tspan><tspan x="56" dy="1.2em">SHIFT</tspan>
+</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="770" y="148" width="28" height="26" class="combo"/>
+<text x="784" y="161" class="combo tap">
+<tspan x="784" dy="-0.6em">RIGHT</tspan><tspan x="784" dy="1.2em">SHIFT</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 331)" class="layer-LOW">
@@ -576,6 +588,18 @@ rect.held, rect.combo.held {
 <g transform="translate(616, 205)" class="key trans keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
+</g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="42" y="148" width="28" height="26" class="combo"/>
+<text x="56" y="161" class="combo tap">
+<tspan x="56" dy="-0.6em">LEFT</tspan><tspan x="56" dy="1.2em">SHIFT</tspan>
+</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="770" y="148" width="28" height="26" class="combo"/>
+<text x="784" y="161" class="combo tap">
+<tspan x="784" dy="-0.6em">RIGHT</tspan><tspan x="784" dy="1.2em">SHIFT</tspan>
+</text>
 </g>
 </g>
 </g>
@@ -754,6 +778,18 @@ rect.held, rect.combo.held {
 <g transform="translate(616, 205)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">Boot</text>
+</g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="42" y="148" width="28" height="26" class="combo"/>
+<text x="56" y="161" class="combo tap">
+<tspan x="56" dy="-0.6em">LEFT</tspan><tspan x="56" dy="1.2em">SHIFT</tspan>
+</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="770" y="148" width="28" height="26" class="combo"/>
+<text x="784" y="161" class="combo tap">
+<tspan x="784" dy="-0.6em">RIGHT</tspan><tspan x="784" dy="1.2em">SHIFT</tspan>
+</text>
 </g>
 </g>
 </g>
