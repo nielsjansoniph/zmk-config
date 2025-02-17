@@ -24,6 +24,11 @@
         };
     };
 
+    &mt {
+        tapping-term-ms = <300>;
+        flavor = "balanced";
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
