@@ -24,10 +24,6 @@
         };
     };
 
-    &mt {
-        tapping-term-ms = <300>;
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
