@@ -12,7 +12,7 @@ layers:
   - {t: I, h: Sft+I}
   - {t: O, h: Sft+O}
   - {t: P, h: Sft+P}
-  - $$mdi:backspace-outline$$
+  - '{'
   - LEFT WIN
   - {t: A, h: Sft+A}
   - {t: S, h: Sft+S}
@@ -36,7 +36,7 @@ layers:
   - {t: ',', h: 'Sft+,'}
   - {t: ., h: Sft+.}
   - {t: /, h: Sft+/}
-  - Esc
+  - {t: '-', h: Sft+-}
   - LEFT ALT
   - ⏎
   - LOW
@@ -55,7 +55,7 @@ layers:
   - Sft+8
   - Sft+9
   - Sft+0
-  - $$mdi:backspace-outline$$
+  - AltGr+-
   - AltGr+Q
   - '1'
   - '2'
@@ -67,12 +67,12 @@ layers:
   - '8'
   - '9'
   - '0'
+  - '}'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - AltGr+8
+  - AltGr+9
+  - AltGr+7
+  - AltGr+0
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

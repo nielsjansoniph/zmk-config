@@ -39,9 +39,9 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&mt ESCAPE TAB  &mt LS(Q) Q  &mt LS(W) W  &mt LS(E) E   &mt LS(R) R  &mt LS(T) T    &mt LS(Y) Y  &mt LS(U) U  &mt LS(I) I          &mt LS(O) O      &mt LS(P) P        &kp BSPC
+&mt ESCAPE TAB  &mt LS(Q) Q  &mt LS(W) W  &mt LS(E) E   &mt LS(R) R  &mt LS(T) T    &mt LS(Y) Y  &mt LS(U) U  &mt LS(I) I          &mt LS(O) O      &mt LS(P) P        &kp LEFT_BRACE
 &kp LEFT_WIN    &mt LS(A) A  &mt LS(S) S  &mt LS(D) D   &mt LS(F) F  &mt LS(G) G    &mt LS(H) H  &mt LS(J) J  &mt LS(K) K          &mt LS(L) L      &mt LS(SEMI) SEMI  &mt LS(SQT) SQT
-&kp LCTRL       &mt LS(Z) Z  &mt LS(X) X  &mt LS(C) C   &mt LS(V) V  &mt LS(B) B    &mt LS(N) N  &mt LS(M) M  &mt LS(COMMA) COMMA  &mt LS(DOT) DOT  &mt LS(FSLH) FSLH  &kp ESC
+&kp LCTRL       &mt LS(Z) Z  &mt LS(X) X  &mt LS(C) C   &mt LS(V) V  &mt LS(B) B    &mt LS(N) N  &mt LS(M) M  &mt LS(COMMA) COMMA  &mt LS(DOT) DOT  &mt LS(FSLH) FSLH  &mt LS(MINUS) MINUS
                                           &kp LEFT_ALT  &kp RET      &mo 1          &mo 2        &kp SPACE    &kp BACKSPACE
             >;
         };
@@ -56,9 +56,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESCAPE  &kp LS(N1)    &kp LS(N2)    &kp RA(N3)    &kp N4        &kp LS(N5)    &kp LS(N6)    &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)  &kp BSPC
-&kp RA(Q)   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N7      &kp N8      &kp N9      &kp N0      &trans
-&trans      &trans        &trans        &trans        &trans        &trans        &trans        &trans      &trans      &trans      &trans      &trans
+&kp ESCAPE  &kp LS(N1)    &kp LS(N2)    &kp RA(N3)    &kp N4        &kp LS(N5)    &kp LS(N6)    &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)  &kp RA(MINUS)
+&kp RA(Q)   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N7      &kp N8      &kp N9      &kp N0      &kp RIGHT_BRACE
+&trans      &kp RA(N8)    &kp RA(N9)    &kp RA(N7)    &kp RA(N0)    &trans        &trans        &trans      &trans      &trans      &trans      &trans
                                         &trans        &trans        &trans        &trans        &trans      &trans
             >;
         };
