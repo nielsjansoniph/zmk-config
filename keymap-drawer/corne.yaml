@@ -47,8 +47,8 @@ layers:
   - ESCAPE
   - Sft+1
   - Sft+2
-  - AltGr+3
-  - '4'
+  - AltGr+E
+  - '#'
   - Sft+5
   - Sft+6
   - Sft+7
@@ -73,13 +73,13 @@ layers:
   - AltGr+9
   - AltGr+7
   - AltGr+0
+  - AltGr+}
+  - NUBS
+  - Sft+NUBS
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -99,12 +99,12 @@ layers:
   - F9
   - F10
   - F11
-  - $$mdi:apple-keyboard-control$$
+  - '`'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp LCLK'
-  - {t: ▽, type: trans}
-  - '&mkp RCLK'
+  - Sft+#
+  - Sft+3
+  - Sft+4
+  - '='
   - Home
   - ←
   - ↓
@@ -113,10 +113,10 @@ layers:
   - End
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - AltGr+2
+  - AltGr+3
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+=
   - ''
   - AltGr+M
   - {t: ▽, type: trans}

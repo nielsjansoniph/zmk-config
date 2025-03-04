@@ -7,7 +7,6 @@
 #include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/pointing.h>
 
 &mt { flavor = "balanced"; };
 
@@ -56,10 +55,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESCAPE  &kp LS(N1)    &kp LS(N2)    &kp RA(N3)    &kp N4        &kp LS(N5)    &kp LS(N6)    &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)  &kp RA(MINUS)
-&kp RA(Q)   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N7      &kp N8      &kp N9      &kp N0      &kp RIGHT_BRACE
-&trans      &kp RA(N8)    &kp RA(N9)    &kp RA(N7)    &kp RA(N0)    &trans        &trans        &trans      &trans      &trans      &trans      &trans
-                                        &trans        &trans        &trans        &trans        &trans      &trans
+&kp ESCAPE  &kp LS(N1)    &kp LS(N2)    &kp RA(E)     &kp NUHS      &kp LS(N5)             &kp LS(N6)    &kp LS(N7)    &kp LS(N8)  &kp LS(N9)  &kp LS(N0)  &kp RA(MINUS)
+&kp RA(Q)   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                 &kp NUMBER_6  &kp N7        &kp N8      &kp N9      &kp N0      &kp RIGHT_BRACE
+&trans      &kp RA(N8)    &kp RA(N9)    &kp RA(N7)    &kp RA(N0)    &kp RA(RIGHT_BRACE)    &kp NUBS      &kp LS(NUBS)  &trans      &trans      &trans      &kp LS(RIGHT_BRACE)
+                                        &trans        &trans        &trans                 &trans        &trans        &trans
             >;
         };
 
@@ -73,10 +72,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp DELETE  &none   &kp F2  &kp F3     &kp F4  &kp F5       &kp F6    &kp F7     &kp F8       &kp F9     &kp F10       &kp F11
-&kp LCTRL   &trans  &trans  &mkp LCLK  &trans  &mkp RCLK    &kp HOME  &kp LEFT   &kp DOWN     &kp RIGHT  &kp UP_ARROW  &kp END
-&trans      &trans  &trans  &trans     &trans  &trans       &none     &kp RA(M)  &trans       &trans     &trans        &kp PRINTSCREEN
-                            &trans     &trans  &trans       &trans    &trans     &bootloader
+&kp DELETE  &none   &kp F2            &kp F3            &kp F4            &kp F5           &kp F6    &kp F7     &kp F8       &kp F9     &kp F10       &kp F11
+&kp GRAVE   &trans  &kp LS(NUHS)      &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp EQUAL        &kp HOME  &kp LEFT   &kp DOWN     &kp RIGHT  &kp UP_ARROW  &kp END
+&trans      &trans  &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &trans            &kp LS(EQUAL)    &none     &kp RA(M)  &trans       &trans     &trans        &kp PRINTSCREEN
+                                      &trans            &trans            &trans           &trans    &trans     &bootloader
             >;
         };
     };
