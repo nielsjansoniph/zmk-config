@@ -108,8 +108,8 @@ layers:
   - Home
   - ←
   - ↓
-  - →
   - UP ARROW
+  - →
   - End
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

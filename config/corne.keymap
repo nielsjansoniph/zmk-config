@@ -72,9 +72,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp DELETE  &none   &kp F2            &kp F3            &kp F4            &kp F5           &kp F6    &kp F7     &kp F8       &kp F9     &kp F10       &kp F11
-&kp GRAVE   &trans  &kp LS(NUHS)      &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp EQUAL        &kp HOME  &kp LEFT   &kp DOWN     &kp RIGHT  &kp UP_ARROW  &kp END
-&trans      &trans  &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &trans            &kp LS(EQUAL)    &none     &kp RA(M)  &trans       &trans     &trans        &kp PRINTSCREEN
+&kp DELETE  &none   &kp F2            &kp F3            &kp F4            &kp F5           &kp F6    &kp F7     &kp F8       &kp F9        &kp F10    &kp F11
+&kp GRAVE   &trans  &kp LS(NUHS)      &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp EQUAL        &kp HOME  &kp LEFT   &kp DOWN     &kp UP_ARROW  &kp RIGHT  &kp END
+&trans      &trans  &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &trans            &kp LS(EQUAL)    &none     &kp RA(M)  &trans       &trans        &trans     &kp PRINTSCREEN
                                       &trans            &trans            &trans           &trans    &trans     &bootloader
             >;
         };
