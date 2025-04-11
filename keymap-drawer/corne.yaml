@@ -1,4 +1,4 @@
-layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
+layout: {zmk_keyboard: corne}
 layers:
   BAS:
   - {t: ↹, h: ESCAPE}
@@ -100,7 +100,7 @@ layers:
   - F10
   - F11
   - '`'
-  - {t: ▽, type: trans}
+  - Sft+`
   - Sft+#
   - Sft+3
   - Sft+4
@@ -112,10 +112,10 @@ layers:
   - →
   - End
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - AltGr+NUBS
   - AltGr+2
   - AltGr+3
-  - {t: ▽, type: trans}
+  - '&mkp LCLK'
   - Sft+=
   - ''
   - AltGr+M
