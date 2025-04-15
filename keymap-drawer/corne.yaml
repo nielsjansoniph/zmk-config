@@ -12,7 +12,7 @@ layers:
   - {t: I, h: Sft+I}
   - {t: O, h: Sft+O}
   - {t: P, h: Sft+P}
-  - '{'
+  - {t: '{', h: 'Sft+{'}
   - LEFT WIN
   - {t: A, h: Sft+A}
   - {t: S, h: Sft+S}

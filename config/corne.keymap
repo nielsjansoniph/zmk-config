@@ -39,7 +39,7 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&mt ESCAPE TAB  &mt LS(Q) Q  &mt LS(W) W  &mt LS(E) E   &mt LS(R) R  &mt LS(T) T    &mt LS(Y) Y  &mt LS(U) U  &mt LS(I) I          &mt LS(O) O      &mt LS(P) P        &kp LEFT_BRACE
+&mt ESCAPE TAB  &mt LS(Q) Q  &mt LS(W) W  &mt LS(E) E   &mt LS(R) R  &mt LS(T) T    &mt LS(Y) Y  &mt LS(U) U  &mt LS(I) I          &mt LS(O) O      &mt LS(P) P        &mt LS(LEFT_BRACE) LEFT_BRACE
 &kp LEFT_WIN    &mt LS(A) A  &mt LS(S) S  &mt LS(D) D   &mt LS(F) F  &mt LS(G) G    &mt LS(H) H  &mt LS(J) J  &mt LS(K) K          &mt LS(L) L      &mt LS(SEMI) SEMI  &mt LS(SQT) SQT
 &kp LCTRL       &mt LS(Z) Z  &mt LS(X) X  &mt LS(C) C   &mt LS(V) V  &mt LS(B) B    &mt LS(N) N  &mt LS(M) M  &mt LS(COMMA) COMMA  &mt LS(DOT) DOT  &mt LS(FSLH) FSLH  &mt LS(MINUS) MINUS
                                           &kp LEFT_ALT  &kp RET      &mo 1          &mo 2        &kp SPACE    &kp BACKSPACE
